@@ -1,0 +1,41 @@
+{
+  "name": "carepath-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.16.0",
+    "mysql2": "^3.24.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.3.0",
+    "recharts": "^2.15.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.0"
+  },
+  "description": "CarePath is a web-based platform designed to support patient recovery after hospital discharge. It allows patients to submit daily recovery check-ins and helps healthcare professionals review progress, track recovery trends, and identify entries that may require attention.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rithvik-0610/Carepath-Post-Discharge-Recovery-Care-Coordination-Platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rithvik-0610/Carepath-Post-Discharge-Recovery-Care-Coordination-Platform/issues"
+  },
+  "homepage": "https://github.com/rithvik-0610/Carepath-Post-Discharge-Recovery-Care-Coordination-Platform#readme"
+}
